@@ -1,8 +1,4 @@
-export interface Task {
-   id: number;
-   title: string;
-   completed: boolean;
-}
+import type { Task } from "../types";
 
 const tasks: Task[] = [
    { id: 1, title: "Выучить Vue", completed: true },
